@@ -14,7 +14,7 @@ When dealing with asymptotic notation we generally only report the most signific
 
 * *Big Theta* - Gives the average case time complexity
 * Theta(g(n)) = f(n) iff c1 * g(n) <= f(n) >= c2 * g(n) for all n>n<sub>0</sub> for some c1, c2 > 0. Ex- Theta(n) = 7n + 5
-* *Big O* - Gives the worst case time complexuty
+* *Big O* - Gives the worst case time complexity
   O(g(n)) = f(n)  iff  f(n) <= c * g(n), for all n>n<sub>0</sub> for some c. Ex - O(n) = 7n + 5
 * *Big Omega* - Gives the best case time complexity
   Omega(g(n)) = f(n) iff f(n) >= c * g(n), for all n>n<sub>0</sub> for some c. Omega(1) = 7n + 5
